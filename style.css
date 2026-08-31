@@ -1,3 +1,23 @@
-link {
-    color: black;
+body {
+  /* body et a repris du modele pour remplacer ul link et .important */
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1{font-weight: 3.5em;
+    color:#a5b4fc;
+    font-family:montserrat, sans-serif;
+}
+p{
+    font-family:manrope, sans-serif;
+    font-size: 1.1em;
+}
+em {
+  color: #a5b4fc;
+  font-style: normal;
 }
