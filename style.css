@@ -2,22 +2,39 @@ body {
   /* body et a repris du modele pour remplacer ul link et .important */
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
+  background-color: #1F2039;
 }
 
 a {
-  color: black;
+  color: #242424;
   text-decoration: none;
 }
 
 h1{font-weight: 3.5em;
-    color:#a5b4fc;
+    color:#242424;
     font-family:montserrat, sans-serif;
+    background-color: #1F2039;
 }
-p{
+
+h2{color:#a5b4fc}
+
+p,
+li{
     font-family:manrope, sans-serif;
     font-size: 1.1em;
+    color:#f9f8ff
 }
+
 em {
   color: #a5b4fc;
   font-style: normal;
+}
+
+.entete,
+.piedepage {background-color: white;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
 }
